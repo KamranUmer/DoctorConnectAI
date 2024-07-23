@@ -151,7 +151,7 @@ def chat():
                     {"role": "assistant", "content": response})
                 # print(st.session_state.messages)
 
-st.write(">>>>> Powered by Kamran Umer <<<<<< ")
+st.write(" Powered by Kamran Umer  ")
 
 if __name__ == '__main__':
     chat()
