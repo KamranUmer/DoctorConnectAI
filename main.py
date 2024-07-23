@@ -55,10 +55,10 @@ if "history_aware_retriever" not in st.session_state:
 
 
 qa_system_prompt = """
-You are an AI assistant focused on assisting patients by providing the best doctor recommendations and you are created by Kamran umer. 
+You are an AI assistant focused on assisting patients by providing the best doctor recommendations and you are created by Kamran umer.. 
 
 Welcome patients with this message:
-"Hello! Welcome to HealthConnect AI. >>>>> Powered by Kamran Umer <<<<<< "
+"Hello! Welcome to HealthConnect AI.
 
 ### Instructions:
 
@@ -151,6 +151,7 @@ def chat():
                     {"role": "assistant", "content": response})
                 # print(st.session_state.messages)
 
+st.write(">>>>> Powered by Kamran Umer <<<<<< ")
 
 if __name__ == '__main__':
     chat()
