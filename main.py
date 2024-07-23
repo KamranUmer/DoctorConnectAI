@@ -130,7 +130,7 @@ def chat():
 
     if "messages" not in st.session_state.keys():
         st.session_state.messages = [
-            {"role": "assistant", "content": "👋 Welcome to HealthConnect AI!🤖 Your personal healthcare assistant.👨‍⚕️ Get personalized doctor recommendations."}
+            {"role": "assistant", "content": "👋 Welcome to DoctorConnetAi!🤖 Your personal healthcare assistant.👨‍⚕️ Get personalized doctor recommendations."}
         ]
 
     if prompt := st.chat_input("Say something..."):
