@@ -1,6 +1,6 @@
-# HealthConnect AI
+# DoctorConnectAi
 
-Welcome to HealthConnect AI, a dedicated and helpful AI assistant focused on assisting patients by providing the best doctor recommendations.
+Welcome to DoctorConnectAi, a dedicated and helpful AI assistant focused on assisting patients by providing the best doctor recommendations.
 
 ## Features
 
@@ -22,12 +22,6 @@ Welcome to HealthConnect AI, a dedicated and helpful AI assistant focused on ass
 ## Usage
 
 After starting the application, you can interact with HealthConnect AI by providing the necessary information. The AI will guide you through the process and provide recommendations based on your preferences.
-
-## Demo
-
-[Demo picture 1 of the app](demo/1.png)
-[Demo picture 2 of the app](demo/2.png)
-[Demo picture 3 of the app](demo/3.png)
 
 ## Contributing
 
