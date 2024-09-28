@@ -14,7 +14,7 @@ from ingest import create_embeddings
 # GROQ_API = os.getenv('GROQ_API')
 # GROQ_API = st.secrets["GROQ_API"]
 
-GROQ_API = "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"
+GROQ_API = "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"
 
 llm = ChatGroq(temperature=0,
                model_name="Llama3-70b-8192",
