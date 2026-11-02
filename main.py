@@ -9,12 +9,11 @@ import sys
 import streamlit as st
 from ingest import create_embeddings
 
-# dotenv_path = '.env'
-# load_dotenv(dotenv_path)
+load_dotenv(find_dotenv())
 # GROQ_API = os.getenv('GROQ_API')
 # GROQ_API = st.secrets["GROQ_API"]
 
-GROQ_API = "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"
+GROQ_API = os.getenv("GROQ_API")
 
 llm = ChatGroq(temperature=0,
                model_name="Llama3-70b-8192",
